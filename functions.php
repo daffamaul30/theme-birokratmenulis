@@ -1,4 +1,5 @@
 <?php
+// require_once('./classes/class-wp-bootstrap-navwalker.php');
 add_action( 'after_setup_theme', 'blankslate_setup' );
 function blankslate_setup() {
 load_theme_textdomain( 'blankslate', get_template_directory() . '/languages' );
@@ -114,3 +115,13 @@ return count( $comments_by_type['comment'] );
 return $count;
 }
 }
+/**
+ * Register Custom Navigation Walker
+ */
+function register_navwalker(){
+	require_once get_template_directory() . '/classes/class-wp-bootstrap-navwalker.php';
+}
+add_action( 'after_setup_theme', 'register_navwalker' );
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'THEMENAME' ),
+) );
