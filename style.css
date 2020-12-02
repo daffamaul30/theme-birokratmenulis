@@ -37,9 +37,14 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
 
 button.navbar-toggle {
     margin: 5px;
+    border: 2px solid var(--primary-color) !important;
     background-color: var(--primary-color) !important;
     color: solid var(--secondary-color) !important;
     height: 45px;
+}
+
+.icon-bar {
+    background-color: var(--secondary-color);
 }
 
 .navbar.navbar-light {
@@ -149,6 +154,8 @@ a img.aligncenter {
 	padding: 15px 0;
 	background:#eee;
 }
+
+/* ==========================================================RESPONSIVE========================================================== */
 
 @media only screen and (max-width: 800px) {
     .nav li {
