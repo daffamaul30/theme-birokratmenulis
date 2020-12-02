@@ -15,165 +15,190 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
 /* -------------------------------------------------------------- */
 @import url('./guide.css');
 
-
 /* ==========================================================HEADER========================================================== */
 .logo img {
-    width: 300px;
+  width: 300px;
 }
 
 .logo {
-    padding: 10px;
+  padding: 10px;
 }
 
 .jumbotron {
-    margin-bottom: 0;
-    background-color: #393E46;
+  margin-bottom: 0;
+  background-color: #393e46;
 }
 
 .navbar-toggle {
-    position: relative;
-    float: left;
+  position: relative;
+  float: left;
 }
 
 button.navbar-toggle {
-    margin: 5px;
-    border: 2px solid var(--primary-color) !important;
-    background-color: var(--primary-color) !important;
-    color: solid var(--secondary-color) !important;
-    height: 45px;
+  margin: 5px;
+  border: 2px solid var(--primary-color) !important;
+  background-color: var(--primary-color) !important;
+  color: solid var(--secondary-color) !important;
+  height: 45px;
 }
 
 .icon-bar {
-    background-color: var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
 .navbar.navbar-light {
-    border-radius: unset;
-    background-color: var(--secondary-color) !important;
+  border-radius: unset;
+  background-color: var(--secondary-color) !important;
 }
 
 .nav li a {
-    color: var(--primary-color) !important;
-    margin-top: -1px;
+  color: var(--primary-color) !important;
+  margin-top: -1px;
 }
 
 .nav li a:hover {
-    background-color: var(--primary-color);
-    color: var(--secondary-color) !important;
+  background-color: var(--primary-color);
+  color: var(--secondary-color) !important;
 }
 
 .collapse .navbar-collapse {
-    margin-top: 0px !important;
+  margin-top: 0px !important;
 }
 
 /* ==========================================================HEADER========================================================== */
 
 .alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .aligncenter,
 div.aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
+  display: block;
+  margin: 5px auto 5px auto;
 }
 
 .alignright {
-    float:right;
-    margin: 5px 0 20px 20px;
+  float: right;
+  margin: 5px 0 20px 20px;
 }
 
 .alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
+  float: left;
+  margin: 5px 20px 20px 0;
 }
 
 .aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
+  display: block;
+  margin: 5px auto 5px auto;
 }
 
 a img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px;
+  float: right;
+  margin: 5px 0 20px 20px;
 }
 
 a img.alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 a img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 0;
+  float: left;
+  margin: 5px 20px 20px 0;
 }
 
 a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .wp-caption {
-    background: #fff;
-    border: 1px solid #f0f0f0;
-    max-width: 96%; /* Image does not overflow the content area */
-    padding: 5px 3px 10px;
-    text-align: center;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%; /* Image does not overflow the content area */
+  padding: 5px 3px 10px;
+  text-align: center;
 }
 
 .wp-caption.alignnone {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .wp-caption.alignleft {
-    margin: 5px 20px 20px 0;
+  margin: 5px 20px 20px 0;
 }
 
 .wp-caption.alignright {
-    margin: 5px 0 20px 20px;
+  margin: 5px 0 20px 20px;
 }
 
 .wp-caption img {
-    border: 0 none;
-    height: auto;
-    margin: 0;
-    max-width: 98.5%;
-    padding: 0;
-    width: auto;
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
 }
 
 .wp-caption p.wp-caption-text {
-    font-size: 11px;
-    line-height: 17px;
-    margin: 0;
-    padding: 0 4px 5px;
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
 }
 
-
-#footer{
-	margin-top: 25px;
-	padding: 15px 0;
-	background:#eee;
+#footer {
+  margin-top: 25px;
+  padding: 15px 0;
+  background: #eee;
 }
 
 /* ==========================================================RESPONSIVE========================================================== */
 
-@media only screen and (max-width: 800px) {
-    .nav li {
-      border-bottom: 1px dotted var(--primary-color);
-      /* border-width: 80%; */
-    }
-    .nav li:last-child {
-      border-bottom: 0px;
-    }
-  
-    .nav li:first-child {
-      border-top: 3px solid var(--primary-color);
-    }
-    .logo img {
-      width: 200px;
-    }
-    .logo {
-      padding: 5px;
-    }
+@media only screen and (max-width: 1000px) {
+  .nav li {
+    border-bottom: 1px dotted var(--primary-color);
+    /* border-width: 80%; */
   }
+  .nav li:last-child {
+    border-bottom: 0px;
+  }
+
+  .nav li:first-child {
+    border-top: 3px solid var(--primary-color);
+  }
+  .logo img {
+    width: 260px;
+  }
+  .logo {
+    padding: 5px;
+  }
+
+  button.navbar-toggle {
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 13px;
+  }
+  .nav li {
+    border-bottom: 1px dotted var(--primary-color);
+    /* border-width: 80%; */
+  }
+  .nav li:last-child {
+    border-bottom: 0px;
+  }
+
+  .nav li:first-child {
+    border-top: 3px solid var(--primary-color);
+  }
+  .logo img {
+    width: 200px;
+  }
+  .logo {
+    padding: 15px;
+  }
+}
