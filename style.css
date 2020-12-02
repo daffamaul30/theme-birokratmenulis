@@ -13,7 +13,10 @@ Birokrat Menulis Template WordPress Theme © 2020 Squadra
 Birokrat Menulis Template is distributed under the terms of the GNU GPL
 */
 /* -------------------------------------------------------------- */
+@import url('./guide.css');
 
+
+/* ==========================================================HEADER========================================================== */
 .logo img {
     width: 300px;
 }
@@ -35,6 +38,22 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
 button.navbar-toggle {
     margin: 5px;
 }
+
+.navbar.navbar-dark {
+    border-radius: 0px;
+    background-color: var(--secondary-color) !important;
+}
+
+.nav li a {
+    color: var(--primary-color) !important;
+}
+
+.nav li a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color) !important;
+}
+
+/* ==========================================================HEADER========================================================== */
 
 .alignnone {
     margin: 5px 20px 20px 0;

@@ -1,0 +1,19 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+:root {
+  --primary-color: #393e46;
+  /* --primary-color: #000000; */
+  --secondary-color: #f0a500;
+  --search-btn-width: 70px;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* .container {
+  margin-left: 100px;
+  margin-right: 100px;
+} */

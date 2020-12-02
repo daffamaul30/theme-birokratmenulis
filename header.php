@@ -13,7 +13,7 @@
 		<img alt="birokrat menulis" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/Main.png" />
 	</a>
 </div>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-dark">
   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
   <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsibleNavbar">
