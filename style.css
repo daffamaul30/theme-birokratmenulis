@@ -48,12 +48,13 @@ button.navbar-toggle {
 }
 
 .navbar.navbar-light {
-    border-radius: 0px;
+    border-radius: unset;
     background-color: var(--secondary-color) !important;
 }
 
 .nav li a {
     color: var(--primary-color) !important;
+    margin-top: -1px;
 }
 
 .nav li a:hover {
@@ -168,5 +169,11 @@ a img.aligncenter {
   
     .nav li:first-child {
       border-top: 3px solid var(--primary-color);
+    }
+    .logo img {
+      width: 200px;
+    }
+    .logo {
+      padding: 5px;
     }
   }
