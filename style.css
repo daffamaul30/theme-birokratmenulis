@@ -12,10 +12,11 @@ Text Domain: Birokrat Menulis Template
 Birokrat Menulis Template WordPress Theme © 2020 Squadra
 Birokrat Menulis Template is distributed under the terms of the GNU GPL
 */
-/* -------------------------------------------------------------- */ */
+/* -------------------------------------------------------------- */
 
-.navbar-default {
-    color: black;
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #393E46;
 }
 
 .alignnone {
