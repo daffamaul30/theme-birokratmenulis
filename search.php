@@ -1,24 +1,29 @@
-<?php get_header(); ?>
-<main id="content">
-<?php if ( have_posts() ) : ?>
-<header class="header">
-<h1 class="entry-title"><?php printf( esc_html__( 'Search Results for: %s', 'blankslate' ), get_search_query() ); ?></h1>
-</header>
-<?php while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'entry' ); ?>
-<?php endwhile; ?>
-<?php get_template_part( 'nav', 'below' ); ?>
-<?php else : ?>
-<article id="post-0" class="post no-results not-found">
-<header class="header">
-<h1 class="entry-title"><?php esc_html_e( 'Nothing Found', 'blankslate' ); ?></h1>
-</header>
-<div class="entry-content">
-<p><?php esc_html_e( 'Sorry, nothing matched your search. Please try again.', 'blankslate' ); ?></p>
-<?php get_search_form(); ?>
+<?php get_header();
+global $themeurl;
+?>
+<div class="container">
+	<div class="row">
+	<div class="col-lg-8">
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
+
+		<div class="media">
+		  <a class="pull-left" href="<?php the_permalink();?>">
+		    <img class="media-object" src="<?php echo $themeurl;?>/img/gambar.svg" alt="<?php the_title();?>">
+		  </a>
+		  <div class="media-body">
+		    <h4 class="media-heading"><?php the_title();?></h4>
+			    <p><?php the_excerpt();?></p>
+		  </div>
+		</div>
+
+		<?php 
+			endwhile;
+			else:
+			echo ' <p>Sorry mas bro, ga ada postnya...</p>';
+			endif;
+		?>
+	</div>
+	<?php get_sidebar();?>
+	</div>
 </div>
-</article>
-<?php endif; ?>
-</main>
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_footer();?>

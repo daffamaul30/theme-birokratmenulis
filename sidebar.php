@@ -1,9 +1,5 @@
-<aside id="sidebar">
-<?php if ( is_active_sidebar( 'primary-widget-area' ) ) : ?>
-<div id="primary" class="widget-area">
-<ul class="xoxo">
-<?php dynamic_sidebar( 'primary-widget-area' ); ?>
-</ul>
+<div class="col-lg-4">
+	<?php
+		if (!dynamic_sidebar('sidebar-widget')){echo 'Geser geser dulu sidebarnya';} ?>
+
 </div>
-<?php endif; ?>
-</aside>
