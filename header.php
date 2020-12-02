@@ -8,9 +8,9 @@
 </head>
 <body <?php body_class();?>>
 
-<div class="jumbotron">
+<div class="jumbotron text-center logo">
 	<a href="http://localhost/birokratmenulis/">
-		<img alt="birokrat menulis" src="./img/Main.PNG" />
+		<img alt="birokrat menulis" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/Main.png" />
 	</a>
 </div>
 <nav class="navbar navbar-default navbar-expand-md">
