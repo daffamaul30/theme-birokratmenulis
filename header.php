@@ -13,7 +13,7 @@
 		<img alt="birokrat menulis" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/Main.png" />
 	</a>
 </div>
-<nav class="navbar navbar-default navbar-expand-md">
+<nav class="navbar navbar-default">
   <!-- <a class="navbar-brand" href="#">Navbar</a> -->
   <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -22,8 +22,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    </div>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	</div>
+  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
 	<?php
 	$defaults = array(
 		'theme_location'  => 'header_nav',

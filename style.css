@@ -27,6 +27,15 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
     background-color: #393E46;
 }
 
+.navbar-toggle {
+    position: relative;
+    float: left;
+}
+
+button.navbar-toggle {
+    margin: 5px;
+}
+
 .alignnone {
     margin: 5px 20px 20px 0;
 }
