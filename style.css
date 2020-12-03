@@ -65,6 +65,10 @@ button.navbar-toggle {
   margin-top: 0px !important;
 }
 
+p {
+  margin-bottom: 0px;
+}
+
 /* ==========================================================HEADER========================================================== */
 
 .alignnone {
@@ -149,6 +153,7 @@ a img.aligncenter {
 }
 
 #footer {
+  position: fixed;
   margin-top: 25px;
   padding: 15px 0;
   background: #eee;
