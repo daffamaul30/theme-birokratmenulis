@@ -21,7 +21,7 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
 }
 
 .logo {
-  padding: 10px;
+  padding: 20px !important;
 }
 
 .jumbotron {
@@ -54,6 +54,7 @@ button.navbar-toggle {
 .nav li a {
   color: var(--primary-color) !important;
   margin-top: -1px;
+  font-size: 1%px !important;
 }
 
 .nav li a:hover {
@@ -67,6 +68,48 @@ button.navbar-toggle {
 
 p {
   margin-bottom: 0px;
+}
+
+#form-search {
+  position: absolute;
+  width: 250px;
+  right: 0;
+  margin-right: 40px !important;
+  margin-top: 4px !important;
+  vertical-align: bottom;
+  background: var(--primary-color);
+}
+
+#input-search,
+#submit-search {
+  height: 40px;
+  border: 1px solid var(--secondary-color);
+}
+
+input[type='search'] {
+  outline: 0;
+  width: 100%;
+  background: white;
+  padding: 5px;
+  appearance: inherit;
+  transition: all 0.3s cubic-bezier(0, 0, 0.43, 1.49);
+  transition-property: width, border-radius;
+  z-index: 1;
+  position: relative;
+}
+#submit-search {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--search-btn-width);
+  font-weight: bold;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+input:not(:placeholder-shown) {
+  width: calc(100% - var(--search-btn-width)) !important;
 }
 
 /* ==========================================================HEADER========================================================== */
@@ -157,11 +200,19 @@ a img.aligncenter {
   margin-top: 25px;
   padding: 15px 0;
   background: #eee;
+  height: 1000px;
 }
 
 /* ==========================================================RESPONSIVE========================================================== */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
+  #input-search {
+    width: 180px !important;
+  }
+  #form-search {
+    margin-right: 3px !important;
+  }
+
   .nav li {
     border-bottom: 1px dotted var(--primary-color);
     /* border-width: 80%; */
@@ -186,8 +237,16 @@ a img.aligncenter {
 }
 
 @media only screen and (max-width: 700px) {
+  #input-search {
+    width: 110px !important;
+  }
+  #form-search {
+    margin-right: 3px !important;
+    width: 175px;
+  }
+
   body {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   .nav li {
     border-bottom: 1px dotted var(--primary-color);

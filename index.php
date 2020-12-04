@@ -1,7 +1,7 @@
 <?php get_header();
 global $themeurl;
 ?>
-<!-- <div class="container">
+<div class="container">
 	<div class="row">
 	<div class="col-lg-8">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post();?>
@@ -25,5 +25,5 @@ global $themeurl;
 	</div>
 	<?php get_sidebar();?>
 	</div>
-</div> -->
+</div>
 <?php get_footer();?>

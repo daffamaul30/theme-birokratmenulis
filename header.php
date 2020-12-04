@@ -21,7 +21,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
+	</button>
+	<?php get_search_form(); ?>
 	</div>
   <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
 	<?php

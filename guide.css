@@ -9,8 +9,8 @@
 }
 
 body {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 15px;
+  font-family: 'PT Sans', sans-serif !important;
+  /* font-size: 10px !important; */
 }
 
 /* .container {
