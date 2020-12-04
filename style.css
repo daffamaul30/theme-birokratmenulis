@@ -314,11 +314,10 @@ a img.aligncenter {
 
   /* Footer */
   .copyright-socmed {
-    position: relative;
     display: inline-block;
   }
   .socmed {
-    width: 500px !important;
+    width: 200px !important;
     position: relative;
     margin-right: 0px;
   }
@@ -366,7 +365,6 @@ a img.aligncenter {
 
   /* Footer */
   .copyright-socmed {
-    position: relative;
     display: inline-block;
   }
   .socmed {
