@@ -5,7 +5,7 @@ get_header();
 if ( have_posts() ) {
 	?>
 	<div class="container">
-    <h2>Search results for query: "<?php the_search_query(); ?>"</h2>
+    <h2 id="cari">Search results for query: "<?php the_search_query(); ?>"</h2>
 	<?php
 	while ( have_posts() ) {
 		the_post();

@@ -112,6 +112,89 @@ input:not(:placeholder-shown) {
   width: calc(100% - var(--search-btn-width)) !important;
 }
 
+/* FOOTER */
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.jumbotron-buttom {
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  height: fit-content;
+  margin-bottom: 0;
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.copyright p,
+.col-sm-4 img {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.socmed {
+  width: 200px !important;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  margin-top: -3px;
+}
+
+.col-sm-4 img {
+  width: 25px !important;
+}
+
+.copyright-socmed {
+  display: inline-flex;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.col-sm-4 a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: bottom left;
+  background-color: white;
+}
+
+.col-sm-4 a:hover::before {
+  transform: scaleX(1);
+}
+
+.bottom-info {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  font-weight: lighter;
+  margin: auto;
+  font-size: 13px;
+}
+
+.bottom-info p {
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.second-logo {
+  width: 230px !important;
+}
 /* ==========================================================HEADER========================================================== */
 
 .alignnone {
@@ -195,13 +278,7 @@ a img.aligncenter {
   padding: 0 4px 5px;
 }
 
-#footer {
-  position: fixed;
-  margin-top: 25px;
-  padding: 15px 0;
-  background: #eee;
-  height: 1000px;
-}
+
 
 /* ==========================================================RESPONSIVE========================================================== */
 
@@ -234,6 +311,27 @@ a img.aligncenter {
   button.navbar-toggle {
     height: 35px;
   }
+
+  /* Footer */
+  .copyright-socmed {
+    position: relative;
+    display: inline-block;
+  }
+  .socmed {
+    width: 500px !important;
+    position: relative;
+    margin-right: 0px;
+  }
+  .bottom-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-weight: lighter;
+    margin: auto;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -264,5 +362,26 @@ a img.aligncenter {
   }
   .logo {
     padding: 15px;
+  }
+
+  /* Footer */
+  .copyright-socmed {
+    position: relative;
+    display: inline-block;
+  }
+  .socmed {
+    width: 200px !important;
+    position: relative;
+    margin-right: 0px;
+  }
+  .bottom-info {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-weight: lighter;
+    margin: auto;
+    font-size: 10px;
   }
 }

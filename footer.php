@@ -1,40 +1,39 @@
-<footer style="position: fixed; bottom:0;margin-bottom: 0px" class="page-footer font-small blue pt-4">
+<footer>
 
   <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
-
-        <img style="width:190px" alt="birokrat menulis" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/second.png" />
-        <p>Birokrat Menulis adalah sebuah gerakan untuk mendorong literasi di
+  <div class="jumbotron-buttom text-center">
+        <div class="bottom-info">
+          <img class="second-logo" alt="birokrat menulis" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/second.png" />
+          <p>
+            Birokrat Menulis adalah sebuah gerakan untuk mendorong literasi di
             kalangan para birokrat. Sebuah wadah dimana para birokrat dan para
             pemerhati birokrat berkontribusi untuk perbaikan negeri ini. Motto
-            kami, kritis, cerdas, & menginspirasi tanpa batas.</p>
-
-  </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
-  <div style="background-color: #f0a500; color: #393e46; height" class="footer-copyright text-center py-3">
-    <p style="margin-bottom:0px"> © 2021 Birokrat Menulis</p>
-    <div style="">
-      <div>
-        <a href="#">
-          <img style="width: 25px;" alt="facebook" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/facebook.png" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img style="width: 25px;" alt="twitter" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/twitter.png" />
-        </a>
-      </div>
-      <div>
-        <a href="#">
-          <img style="width: 25px;" alt="whatsapp" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/whatsapp.png" />
-        </a>
-      </div>
+            kami, kritis, cerdas, & menginspirasi tanpa batas.
+          </p>
+        </div>
     </div>
-  </div>
-  <!-- Copyright -->
-
+    <div class="copyright-socmed">
+        <div class="row socmed">
+          <div class="col-sm-4">
+            <a href="#">
+              <img alt="facebook" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/facebook.png" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#">
+              <img alt="teittwr" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/twitter.png" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#">
+              <img alt="facebook" src="http://localhost/birokratmenulis/wp-content/uploads/2020/12/whatsapp.png" />
+            </a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2021 Birokrat Menulis</p>
+        </div>
+    </div>
 </footer>
 
 <?php wp_footer();?>
