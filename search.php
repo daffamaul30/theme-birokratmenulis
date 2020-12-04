@@ -4,6 +4,7 @@ get_header();
  
 if ( have_posts() ) :
 	?>
+	<div class="container">
     <h2>Search results for query: "<?php the_search_query(); ?>"</h2>
 	<?php
 	while ( have_posts() ) : the_post(); ?>
@@ -33,12 +34,13 @@ if ( have_posts() ) :
 				<?php echo get_the_excerpt() ?>
                 <a href="<?php the_permalink() ?>">Read more &raquo</a>
             </p>
-        </article>
+		</article>
+		</div>
 	
 	<?php endwhile;
  
 else :
-	echo '<p>No search results found!</p>';
+	echo '<div class="container"><p>No search results found!</p></div>';
  
 endif;
  
