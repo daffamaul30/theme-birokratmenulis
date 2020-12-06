@@ -115,10 +115,9 @@ input:not(:placeholder-shown) {
 /* FOOTER */
 
 footer {
-  position: fixed;
   width: 100%;
   /* left: 0; */
-  bottom: 0;
+  margin-bottom: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   text-align: center;
