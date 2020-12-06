@@ -24,19 +24,21 @@ add_action( 'wp_enqueue_scripts', 'danker_tambah_script' );
 //REGISTER SIDEBAR
 function danker_widgets_init() {
     register_sidebar( array(
-    'name' => __( 'Main Sidebar', 'dankertheme' ),
+    'name' => __( 'Page Sidebar', 'dankertheme' ),
     'id' => 'sidebar-widget',
     'description' => __( 'Main WIdget, which has its own widgets', 'dankertheme' ),
     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
     'after_widget' => '</aside>',
-    'before_title' => '<div class="widheading"><span>',
-    'after_title' => '</span></div>',
+    'before_title' => '<div style="border-bottom: 2px solid #393e46; margin-top:10px"></div><h4 style="font-weight: bold" class="widget-title text-center"><span>',
+    'after_title' => '</span></h4>',
     ) );
 
 }   
 add_action( 'widgets_init', 'danker_widgets_init' );
 register_nav_menu( 'header_nav', 'Menu di header' );
 register_nav_menu( 'footer_nav', 'Menu di Footer' );
+
+add_theme_support('widgets')
 
 
 ?>

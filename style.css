@@ -117,7 +117,7 @@ input:not(:placeholder-shown) {
 footer {
   position: fixed;
   width: 100%;
-  left: 0;
+  /* left: 0; */
   bottom: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
@@ -187,6 +187,10 @@ footer {
   font-size: 13px;
 }
 
+.btn {
+  border-radius: 0;
+}
+
 .bottom-info p {
   text-align: justify;
   margin-top: 5px;
@@ -195,6 +199,15 @@ footer {
 .second-logo {
   width: 230px !important;
 }
+
+.border-sidebar {
+  border: 2px solid var(--primary-color);
+}
+.btn-subscribe {
+  background-color: black;
+}
+/* Sidebar */
+
 /* ==========================================================HEADER========================================================== */
 
 .alignnone {
@@ -277,8 +290,6 @@ a img.aligncenter {
   margin: 0;
   padding: 0 4px 5px;
 }
-
-
 
 /* ==========================================================RESPONSIVE========================================================== */
 
