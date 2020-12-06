@@ -15,7 +15,6 @@ Birokrat Menulis Template is distributed under the terms of the GNU GPL
 /* -------------------------------------------------------------- */
 @import url('./guide.css');
 
-/* ==========================================================HEADER========================================================== */
 .logo img {
   width: 300px;
 }
@@ -115,9 +114,10 @@ input:not(:placeholder-shown) {
 /* FOOTER */
 
 footer {
+  position: fixed;
   width: 100%;
   /* left: 0; */
-  margin-bottom: 0;
+  bottom: 0;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   text-align: center;
@@ -207,7 +207,6 @@ footer {
 }
 /* Sidebar */
 
-/* ==========================================================HEADER========================================================== */
 
 .alignnone {
   margin: 5px 20px 20px 0;
