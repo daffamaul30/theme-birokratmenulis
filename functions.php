@@ -29,8 +29,8 @@ function danker_widgets_init() {
     'description' => __( 'Main WIdget, which has its own widgets', 'dankertheme' ),
     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
     'after_widget' => '</aside>',
-    'before_title' => '<div style="border-bottom: 3px solid #393e46; margin-top:10px"></div><h4 style="font-weight: bold" class="widget-title text-center"><span>',
-    'after_title' => '</span></h4>',
+    'before_title' => '<div style="border-bottom: 3px solid #393e46; margin-top:10px"></div><h5 style="font-weight: bold" class="widget-title text-center"><span>',
+    'after_title' => '</span></h5>',
     ) );
 
 }   

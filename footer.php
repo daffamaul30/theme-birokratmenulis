@@ -1,4 +1,6 @@
-<footer class="footer">
+<footer style="clear: both;
+    position: relative;
+    margin-top: 20px">
 
   <!-- Footer Links -->
   <div class="jumbotron-buttom text-center">
