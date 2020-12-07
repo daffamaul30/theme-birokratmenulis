@@ -37,6 +37,6 @@ function danker_widgets_init() {
 add_action( 'widgets_init', 'danker_widgets_init' );
 register_nav_menu( 'header_nav', 'Menu di header' );
 register_nav_menu( 'footer_nav', 'Menu di Footer' );
-
+add_theme_support( 'post-thumbnails' ); 
 
 ?>

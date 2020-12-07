@@ -8,7 +8,11 @@ global $themeurl;
 
 		<div class="media">
 		  <a class="pull-left" href="<?php the_permalink();?>">
+            <?php if ( has_post_thumbnail() ) {
+                the_post_thumbnail('thumbnail');
+            } else { ?>
 		    <img class="media-object" src="<?php echo $themeurl;?>/img/gambar.svg" alt="<?php the_title();?>">
+            <?php } ?>
 		  </a>
 		  <div class="media-body">
 		    <h4 class="media-heading"><?php the_title();?></h4>
