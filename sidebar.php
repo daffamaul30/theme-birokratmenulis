@@ -4,7 +4,7 @@
 		if( is_active_sidebar('sidebar-widget') ) :?>
 
 		<button style="border-radius:0;width: 100%; font-weight:bold; background-color: #f0a500; margin-top: 10px" class="btn-subscribe btn">
-			Berlangganan
+			BERLANGGANAN
 		</button>
 
 		<?php dynamic_sidebar('sidebar-widget');?> 
