@@ -24,7 +24,11 @@
 	</button>
 	<?php get_search_form(); ?>
 	</div>
-  <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+	<div class="collapse navbar-collapse text-center" id="collapsibleNavbar" style="float: none;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);">
 	<?php
 	$defaults = array(
 		'theme_location'  => 'header_nav',
