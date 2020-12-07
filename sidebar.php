@@ -1,4 +1,4 @@
-<div style="border: 1px solid #393e46; margin-bottom: 10px" class="col-lg-3">
+<div style="border: 1px solid #393e46; padding-bottom: 10px" class="col-lg-3">
 	<?php
 		// if (!dynamic_sidebar('sidebar-widget')){echo 'Geser geser dulu sidebarnya';}
 		if( is_active_sidebar('sidebar-widget') ) :?>
