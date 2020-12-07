@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer">
 
   <!-- Footer Links -->
   <div class="jumbotron-buttom text-center">
